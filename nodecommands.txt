@@ -1,0 +1,10 @@
+nodecommands
+
+npm --version
+
+npm install <module name (e.g. express)>
+-- install package
+
+npm ls
+-- list all local installed packages
+
