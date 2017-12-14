@@ -8,3 +8,6 @@ npm install <module name (e.g. express)>
 npm ls
 -- list all local installed packages
 
+npm init
+-- create package.json
+

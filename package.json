@@ -1,0 +1,23 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "Sample NodeJS API",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrossbauer/nodejsapi.git"
+  },
+  "author": "Andreas Grossbauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agrossbauer/nodejsapi/issues"
+  },
+  "homepage": "https://github.com/agrossbauer/nodejsapi#readme"
+}
