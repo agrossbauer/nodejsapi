@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "forever start main.js",
+    "start": "node main.js",
     "stop": "forever stopall"
   },
   "repository": {
