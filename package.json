@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node main.js",
-    "start": "node main.js",
+    "test": "",
+    "start": "forever start app.js",
     "stop": "forever stopall"
   },
   "repository": {
