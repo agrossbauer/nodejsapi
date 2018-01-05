@@ -9,10 +9,11 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-http": "^3.0.0",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "mocha-junit-reporter": "^1.15.0"
   },
   "scripts": {
-    "test": "mocha --exit",
+    "test": "mocha --exit --reporter mocha-junit-reporter",
     "start": "forever start main.js",
     "stop": "forever stopall"
   },

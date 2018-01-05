@@ -4,6 +4,8 @@ npm --version
 
 npm install <module name (e.g. express)>
 -- install package
+-- e.g. npm install mocha-junit-reporter --save-dev
+
 
 npm ls
 -- list all local installed packages
