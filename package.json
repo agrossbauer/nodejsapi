@@ -6,9 +6,12 @@
   "dependencies": {
     "express": "^4.16.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
   "scripts": {
-    "test": "",
+    "test": "mocha",
     "start": "forever start main.js",
     "stop": "forever stopall"
   },
