@@ -1,9 +1,26 @@
-var http = require("http");
+// Get the packages we need
+var express = require('express');
 
-http.createServer(function (request,response)
-{
-	response.writeHead(200,{'Content-Type':'text/plain'});
-	response.end('Hello World\n');
-}).listen(8081);
+// Create our Express application
+var app = express();
 
-console.log('Server running at http://127.0.0.1:8081/');
+// Use environment defined port or 3000
+var port = 3000;
+
+// Create our Express router
+var router = express.Router();
+
+// Initial dummy route for testing
+// http://localhost:3000/api
+router.get('/', function(req, res) {
+  res.json({ message: 'test' });
+});
+
+// Register all our routes with /api
+app.use('/api', router);
+
+// Start the server
+app.listen(port);
+console.log('listening on port: ' + port);
+
+module.exports = app;

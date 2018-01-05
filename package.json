@@ -8,10 +8,11 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit",
     "start": "forever start main.js",
     "stop": "forever stopall"
   },
