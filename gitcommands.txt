@@ -1,0 +1,48 @@
+git clone [URL] [shortname]
+git clone https://github.com/agrossbauer/InsuranceSuite_NET.git isnet
+-- isnet = alias
+
+cd isnet
+-- change directory to 'isnet'
+
+git remote 
+// origin
+git remote -v
+// origin URL
+
+git add .
+// add all files
+
+git status
+//list all staged files
+
+git commit -m "comment"
+//commit
+
+git push origin [branch (e.g. master)]
+//push branch to remoterepository
+
+HowTo stage changed files:
+git add .
+git commit
+
+
+git pull [remoterepo (e.g. origin)]
+//update from remote origin
+
+create branch
+
+git checkout - b [branchname]
+
+git checkout [branchname]
+//change working branch
+
+git push origin [brachname]
+//push branch to remoterepo
+
+/*merge branch in master*/
+git checkout master
+git merge [branchname]
+
+git branch -d [branchname]
+//delete branch
